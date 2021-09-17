@@ -37345,8 +37345,8 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-var deleteForm = document.querySelectorAll('.you-sure');
-deleteForm.forEach(function (item) {
+var deleteSure = document.querySelectorAll('.you-sure');
+deleteSure.forEach(function (item) {
   item.addEventListener('submit', function (e) {
     var resp = confirm('sicuro di volerlo cancellare?');
 
@@ -37410,7 +37410,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Riccardo\Documents\corso_boolean\mamp_public\laravel-boolpress\resources\js\admin.js */"./resources/js/admin.js");
+module.exports = __webpack_require__(/*! C:\Users\Riccardo\Documents\corso_boolean\mamp_public\laravel-api\resources\js\admin.js */"./resources/js/admin.js");
 
 
 /***/ })
